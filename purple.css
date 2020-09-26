@@ -5,7 +5,7 @@
 /* BACKGROUND */
 body {
 
-    background: url('https://i.imgur.com/lbptQRn.jpg') center center fixed;
+    background: url('https://raw.githubusercontent.com/pMatt1988/liodenthemes/master/moon.jpg') center center fixed;
 
     background-size: 100%;
     font-family: 'Indie Flower', cursive;
@@ -14,7 +14,7 @@ body {
 /* Set a mobile background image! */
 @media(max-width: 600px) {
     body {
-        background: url('https://i.imgur.com/lbptQRn.jpg') center center fixed;
+        background: url('https://raw.githubusercontent.com/pMatt1988/liodenthemes/master/moon-mobile.jpg') center center fixed;
     }
 }
 
