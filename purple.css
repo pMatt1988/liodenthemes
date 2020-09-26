@@ -1,0 +1,321 @@
+/* FONT (From Google Fonts) */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
+/* BACKGROUND */
+body {
+
+    background: url('https://i.imgur.com/lbptQRn.jpg') center center fixed;
+
+    background-size: 100%;
+    font-family: 'Indie Flower', cursive;
+    color: #ffffff;
+}
+/* Set a mobile background image! */
+@media(max-width: 600px) {
+    body {
+        background: url('https://i.imgur.com/lbptQRn.jpg') center center fixed;
+    }
+}
+
+/* TOPBAR ("Welcome back, ___"), NAVBAR (Den/Crossroads/Etc.) */
+.topbar {
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-top: none;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Indie Flower', cursive;
+    #color: #ffffff;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: none;
+    font-family: 'Indie Flower', cursive;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.navbar li a {
+    color: #ffffff !important;
+}
+
+.navbar li a:hover {
+    background: rgba(197, 124, 201, 0.8) !important;
+}
+
+/* MAIN PANEL */
+.container.main {
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.col-md-9 {
+    background: none;
+}
+
+/* BREADCRUMB (Home / Den) */
+.breadcrumb {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.breadcrumb .active {
+    color: #ffffff;
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+.alert {
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: #ffffff;
+}
+
+.alert-warning, .alert-danger {
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+.feature, div.left {
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid white;
+}
+
+/* ENERGY BARS, ACHIEVEMENTS, & BOOKMARKS */
+.panel {
+    background: rgba(197, 124, 201, 0.6) !important;
+    box-shadow: none !important;
+    border: 3px solid white !important;
+    color: #ffffff !important;
+}
+
+.progress {
+    background: rgba(255, 255, 255, 0.6);
+    color: #ffffff !important;
+}
+
+.progress-div {
+    color: #ffffff !important;
+}
+
+.progress-bar {
+    background: rgba(255, 255, 255, 0.6);
+    color: #ffffff !important;
+}
+
+/* BIGGEST HEADER */
+h1 {
+    color: #ffffff;
+    font-size: 52px;
+    text-align: center;
+}
+
+/* MEDIUM HEADER */
+h2 {
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* SMALL HEADER */
+h3 {
+    color: #000000 !important;
+    font-size: 14px !important
+}
+
+/* LION INFO TABLE (Level, Stats, Branch, Territory Count, Etc.) */
+
+/* PANEL BACKGROUND COLOR */
+.table {
+    background: rgba(197, 124, 201, 0.6);
+    border: 3px solid white !important;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+.top, .bottom, th {
+    background: rgba(0, 0, 0, 0.6) !important;
+    color: #ffffff !important;
+    border-radius: 5px;
+}
+
+/* Block of color where "Territory Description, Player Name, Avatar URL" etc. are */
+.table .left {
+    background: rgba(197, 124, 201, 0.6)
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+.inner-table .left {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Color behind the number of all of the things above */
+.inner-table .right {
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.right_odd {
+    background: none !important;
+}
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+.item-header {
+    background: rgba(0, 0, 0, 0.6) !important;
+    color: #e5f5df !important;
+}
+
+.item {
+    background: rgba(0, 0, 0, 0.6) !important;
+    border: none !important;
+}
+
+/* BEETLE MOUND TOPBAR (Where it says Beetle Training Grounds, Beetle Battling, etc.) */
+.sub_menu {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.sub_menu_item_selected {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", etc. and cave/mound names */
+.cave-grid, .mound-grid {
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid white !important;
+}
+
+/* LINKS & LINK HOVER COLOR */
+a:link, a:visited {
+    color: #ffffff !important;
+}
+
+a:hover {
+    color: #c700ff !important;
+}
+
+/* Affects the color behind your territory description, player name, etc. */
+input, select, textarea {
+    background: rgba(0, 0, 0, 0.6) !important;
+    border: none !important;
+    border-color: black;
+    border-radius: 5px;
+    box-shadow: none !important;
+    color: white !important;
+    text-shadow: none !important;
+}
+
+/* BOXES (Copy paste to add more or less) */
+.boxcontainer {
+    background: none;
+    height: 300px;
+    padding: 0px;
+    display: flex;
+    justify-content: center
+}
+
+.Box1 {
+    float: left;
+    background: rgba(0, 0, 0, 0.6);
+    color: #e5f5df;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    float: left;
+    height: 300px;
+    width: 350px;
+    overflow: auto;
+    margin-bottom: 35px;
+    transition: 1s
+}
+
+.Box2 {
+    float: left;
+    background: rgba(0, 0, 0, 0.6);
+    color: #e5f5df;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    float: right;
+    height: 300px;
+    width: 350px;
+    overflow: auto;
+    margin-bottom: 35px;
+    transition: 1s
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+/* SCROLL BAR BACKGROUND */
+::-webkit-scrollbar-track {
+    background: #c57cc9;
+}
+
+/* SCROLL BAR "THUMB" */
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+/* LION AND USER AVATAR OPACITY */
+div#lion_image {
+    opacity: 1;
+}
+
+table#player img {
+    opacity: 1;
+}
+
+/* LIODEN LOGO REPLACER */
+div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+    content: url('https://i.imgur.com/MdMrJfI.png');
+}
+
+/* Start http://www.cursors-4u.com */
+* {
+    cursor: url(http://cur.cursors-4u.net/nature/nat-11/nat1002.cur), auto !important;
+}
+
+/* End http://www.cursors-4u.com */
+
+/*!* CAVES (Copy paste to add more) *!*/
+/*a[href$="CAVE ID HERE"] > div.cave-grid > img {*/
+/*    content: url('IMAGE URL HERE')!important;*/
+/*}*/
+
+/*a[href$="CAVE ID HERE"] > div.cave-grid > img {*/
+/*    content: url('IMAGE URL HERE')!important;*/
+/*}*/
+
+/*!* UNSORTED *!*/
+/*a[href$="unsorted.php?id=USERID"] > div.cave-grid > img {*/
+/*    content: url('IMAGE URL HERE')!important;*/
+/*}*/
+
+/*!* PREGNANT LIONESSES (NOTE: This will only be visible to you.) *!*/
+/*a[href$="nesting.php"] > div.cave-grid > img {*/
+/*    content: url('https://i.imgur.com/OjPH87v.png')!important;*/
+/*}*/
+
+/*!* PRIDE OVERVIEW *!*/
+/*a[href$="lionoverview.php?id=USERID"] > div.cave-grid > img {*/
+/*    content: url('IMAGE URL HERE')!important;*/
+/*}*/
+
+/*!* MOUNDS *!*/
+/*.mound-grid img {*/
+/*    background:url("IMAGE URL HERE");*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    padding-top: 80px;*/
+/*    padding-right: 130px;*/
